@@ -1,13 +1,10 @@
 -- Run: sqlite3 campusconnect.db < sql/transactions.sql
--- Task 6, sub-requirement: "Write one multi-statement transaction (using
--- BEGIN/COMMIT/ROLLBACK) that updates two related rows together so that
+-- Task 6, sub-requirement: "Write one multi-statement transaction (using BEGIN/COMMIT/ROLLBACK) that updates two related rows together so that
 -- both changes succeed or neither does."
--- Demonstrates: incrementing seats_taken on courses + inserting a row into
--- enrollments, as a single atomic unit.
+-- Demonstrates: incrementing seats_taken on courses + inserting a row into enrollments, as a single atomic unit.
 PRAGMA foreign_keys = ON;
 
--- Scenario: student 11 (Neha Kapoor) enrolls in course 9 (EC101, 40 seats, 1 taken). Both statements below must succeed together, or neither should
--- take effect.
+-- Scenario: student 11 (Neha Kapoor) enrolls in course 9 (EC101, 40 seats, 1 taken). Both statements below must succeed together, or neither should take effect.
 
 BEGIN TRANSACTION;
 
