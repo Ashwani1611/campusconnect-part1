@@ -1,2 +1,3 @@
 campusconnect.db
 *.db
+.DS_Store
