@@ -10,11 +10,11 @@ If we did not normalize the database, we could store all the information in one 
 
 For example:
 
-| enrollment_id | student_name | student_email                     | course_code | course_title    | course_credits | instructor_name | instructor_dept |
-| ------------- | ------------ | --------------------------------- | ----------- | --------------- | -------------- | --------------- | --------------- |
-| 1             | Aditi Rao    | [aditi@x.com](mailto:aditi@x.com) | CS101       | Intro to CS     | 4              | Dr. Mehta       | CSE             |
-| 2             | Aditi Rao    | [aditi@x.com](mailto:aditi@x.com) | CS102       | Data Structures | 4              | Dr. Iyer        | CSE             |
-| 3             | Rohan Das    | [rohan@x.com](mailto:rohan@x.com) | CS101       | Intro to CS     | 4              | Dr. Mehta       | CSE             |
+| enrollment_id | student_name | student_email | course_code | course_title | course_credits | instructor_name | instructor_dept |
+|---|---|---|---|---|---|---|---|
+| 1 | Aditi Rao | aditi.rao@campusconnect.edu | CS101 | Introduction to Computer Science | 4 | Dr. Rakesh Mehta | CSE |
+| 2 | Aditi Rao | aditi.rao@campusconnect.edu | CS201 | Database Systems | 3 | Dr. Rakesh Mehta | CSE |
+| 3 | Rohan Das | rohan.das@campusconnect.edu | CS101 | Introduction to Computer Science | 4 | Dr. Rakesh Mehta | CSE |         |
 
 The main problem here is that the same data gets repeated.
 
