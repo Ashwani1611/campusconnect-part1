@@ -14,7 +14,7 @@ For example:
 |---|---|---|---|---|---|---|---|
 | 1 | Aditi Rao | aditi.rao@campusconnect.edu | CS101 | Introduction to Computer Science | 4 | Dr. Rakesh Mehta | CSE |
 | 2 | Aditi Rao | aditi.rao@campusconnect.edu | CS201 | Database Systems | 3 | Dr. Rakesh Mehta | CSE |
-| 3 | Rohan Das | rohan.das@campusconnect.edu | CS101 | Introduction to Computer Science | 4 | Dr. Rakesh Mehta | CSE |         |
+| 3 | Rohan Das | rohan.das@campusconnect.edu | CS101 | Introduction to Computer Science | 4 | Dr. Rakesh Mehta | CSE |
 
 The main problem here is that the same data gets repeated.
 
