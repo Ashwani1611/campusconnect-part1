@@ -1,4 +1,4 @@
--- Engine: SQLite 3.45
+-- Engine: SQLite 3.51.0
 PRAGMA foreign_keys = ON;
 
 CREATE TABLE students (
